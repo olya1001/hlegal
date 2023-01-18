@@ -43,25 +43,54 @@ $bold:700;
   }
 .gradient-supersoft{
     background:linear-gradient(#323264 0%, #323264 59.9%, #643E72 100%);
+    border-radius: 0px 0px 12px 12px;
 }
 .hero{
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-size: 38px;
-line-height: 46px;
-font-weight: 700;
-background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 700;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    .hero-hover{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 38px;
+        line-height: 46px;
+        font-weight: 700;
+        // background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        &.active{
+            background-color:$grey-text;
+        }
+        &:hover{
+            background-color: #F0145A;
+        }
+        }
+.hero-grey{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 700;
+    background: $grey-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
 .h2{
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
 line-height: 37px;
-color: #323264;
+color: #FFFFFF;
 }
 .h3{
 font-family: 'Montserrat';
@@ -79,7 +108,17 @@ font-size: 14px;
 line-height: 17px;
 letter-spacing: 1px;
 text-transform: uppercase;
-color: #323264;
+color: #24A3FF;
+}
+.h3-caps-main-regular{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: $main-regular;
 }
 .h4{
 font-family: 'Montserrat';
@@ -95,7 +134,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 26px;
-color: #000000;
+color: #FFFFFF;
 }
 .unordered-list{
 font-family: 'Montserrat';

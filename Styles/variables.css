@@ -4,6 +4,7 @@
 
 .gradient-supersoft {
   background: linear-gradient(#323264 0%, #323264 59.9%, #643E72 100%);
+  border-radius: 0px 0px 12px 12px;
 }
 
 .hero {
@@ -18,13 +19,42 @@
   background-clip: text;
 }
 
+.hero-hover {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero-hover.active {
+  background-color: #B3B3BA;
+}
+.hero-hover:hover {
+  background-color: #F0145A;
+}
+
+.hero-grey {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 700;
+  background: #B3B3BA;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
-  color: #323264;
+  color: #FFFFFF;
 }
 
 .h3 {
@@ -37,6 +67,17 @@
 }
 
 .h3-caps {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.h3-caps-main-regular {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -62,7 +103,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .unordered-list {
